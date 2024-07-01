@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "email": "john@doe.com",
+    "password": "123456",
+    "userHashCode": "5175527379159471",
+    "companyId": "1"
+  },
+  {
+    "id": 2,
+    "name": "Jane Doe",
+    "email": "jane@doe.com",
+    "password": "123456",
+    "userHashCode": "454111824414880",
+    "companyId": "1"
+  },
+  {
+    "id": 3,
+    "email": "jack@doe.com",
+    "password": "123456",
+    "userHashCode": 4838058498881736,
+    "companyId": "1"
+  }
+]

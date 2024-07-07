@@ -25,7 +25,7 @@ app.route('/api/auth/').post(authUser);
 app.route('/api/createUser/').post(createUser);
 app.route('/api/companies').get(getCompanies);
 app.route('/api/company/:id').get(getCompanyById);
-app.route('/api/company/:name').get(getCompanyByName);
+app.route("/api/companyByName/:name").get(getCompanyByName);
 app.route('/api/create-company').post(createCompany);
 
 

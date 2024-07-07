@@ -1,7 +1,7 @@
 {
-    "watch": ["server"],
-    "ext": "ts",
-    "ignore": ["node_modules", "src"],
-    "exec": "ts-node -P ./server.tsconfig.json ./server.ts"
-  }
+  "watch": ["*.ts", "**/*.ts", "!node_modules/**", "./*.ts"],
+  "ext": "ts",
+  "ignore": ["node_modules", "src"],
+  "exec": "ts-node -P ./server.tsconfig.json ./server.ts"
+}
   
